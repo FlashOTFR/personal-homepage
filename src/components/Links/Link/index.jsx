@@ -1,11 +1,10 @@
 import React from 'react';
-import classes from 'style.css';
+import classes from './style.css';
 
 const Link = (props) => {
     return ( 
         <div className={classes.Link}>
-            <img src={props.image}>Check out an image</img>
-            <a>{props.linkurl}</a>
+            <a href={props.linkurl}>{props.linkurl}</a>
             <p>{props.description}</p>
         </div>
      );
