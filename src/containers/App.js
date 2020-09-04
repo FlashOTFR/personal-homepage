@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Cockpit from '../components/Cockpit';
-import TLink from '../components/TLink';
 import Links from '../components/Links';
 
 
@@ -19,7 +18,7 @@ class App extends Component {
     return ( 
     <div className="App">
       <Cockpit />
-      <Links links={this.state.links} />
+      {/* <Links links={this.state.links} /> */}
     </div>
      );
   }

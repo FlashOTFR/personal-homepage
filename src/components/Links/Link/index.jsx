@@ -3,7 +3,7 @@ import classes from './style.css';
 
 const Link = (props) => {
     return ( 
-        <div className={classes.Link}>
+        <div className='link'>
             <a href={props.linkurl}>{props.linkurl}</a>
             <p>{props.description}</p>
         </div>
