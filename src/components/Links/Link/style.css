@@ -1,0 +1,27 @@
+p {
+    color: green;
+}
+
+.link {
+    background-color: lightgray;
+    width: 20%;
+    border: solid black 1px;
+    border-radius: 16px;
+    opacity: 85%;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 16px auto;
+    text-align: center;
+}
+
+.Person {
+    width: 20%;
+    border: 1px solid #eee;
+    padding: 2%;
+}
+
+
+ @media (min-width: 500px) {
+     .link {
+         width: 450px;
+     }
+ }
