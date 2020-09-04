@@ -1,13 +1,32 @@
 h1 {
     color: white;
     font-size: 60px;
+    margin-bottom: 5%;
 }
 
 .profpic {
-    height: 20%;
-    width: 20%;
+    height: 100%;
+    width: 35%;
     border-radius: 25%;
-    margin: 2%;
     border-style: solid;
     border-color: white;
+    margin-right: 2%;
     }
+
+.move {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.time-box {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+}
+
+.quote-box {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+}
