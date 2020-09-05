@@ -2,6 +2,8 @@ import React from 'react';
 import './style.css';
 import pic from '../../assets/picture-min.jpg';
 import Time from '../Time';
+import Links from '../Links';
+
 
 
 const Cockpit = (props) => {
@@ -15,13 +17,30 @@ const Cockpit = (props) => {
 
             <div className="row move">
                 <div className="col-md-4 time-box">
+                    <div className="row">
+                        <div className="col-md-12">
                     <Time />
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-md-12">
+                    <h3>eventually weather goes here</h3>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="col-md-4">
                     <img src={pic} className="profpic" />
                 </div>
                 <div className="col-md-4 quote-box">
                     <h2>sup</h2>
+                </div>
+            </div>
+
+            <div className="row link-space">
+                <div className="col-md-12">
+                    <Links links={props.links} />
                 </div>
             </div>
         </div>

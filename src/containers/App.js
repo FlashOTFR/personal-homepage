@@ -17,8 +17,8 @@ class App extends Component {
   render() { 
     return ( 
     <div className="App">
-      <Cockpit />
-      {/* <Links links={this.state.links} /> */}
+      <Cockpit links={this.state.links}/>
+      {/* <Links  /> */}
     </div>
      );
   }

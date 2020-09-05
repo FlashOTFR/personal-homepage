@@ -30,3 +30,11 @@ h1 {
     justify-content: space-around;
     margin-right: 15%;
 }
+
+.time-box h2 {
+    font-size: 35px;
+}
+
+body {
+    color: white;
+}
