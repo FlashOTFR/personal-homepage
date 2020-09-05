@@ -25,7 +25,7 @@ const Cockpit = (props) => {
 
                     <div className="row">
                         <div className="col-md-12">
-                    <h3>eventually weather goes here</h3>
+
                         </div>
                     </div>
 
@@ -34,12 +34,12 @@ const Cockpit = (props) => {
                     <img src={pic} className="profpic" />
                 </div>
                 <div className="col-md-4 quote-box">
-                    <h2>sup</h2>
+
                 </div>
             </div>
 
             <div className="row link-space">
-                <div className="col-md-12">
+                <div className="col-md-12 link-list">
                     <Links links={props.links} />
                 </div>
             </div>
